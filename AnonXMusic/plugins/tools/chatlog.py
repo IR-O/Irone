@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
-from config import LOG_GROUP_ID
+from config import LOGGER_ID
 from AnonXMusic import app
 
 
