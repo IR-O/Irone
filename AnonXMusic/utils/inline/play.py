@@ -1,5 +1,5 @@
 import math
-from config import SUPPORT_CHAT, OWNER_ID
+from config import SUPPORT_CHAT, OWNER_USERNAME
 from pyrogram.types import InlineKeyboardButton
 
 from AnonXMusic.utils.formatters import time_to_seconds
@@ -71,7 +71,7 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="✨ᴅᴇᴠ🍃",
 
-                url=f"t.me/{OWNER_ID}",
+                url=f"t.me/{OWNER_USERNAME}",
 
             ),
             InlineKeyboardButton(
@@ -102,7 +102,7 @@ def stream_markup(_, chat_id):
 
                 text="✨ᴅᴇᴠ🍃",
 
-                url=f"t.me/{OWNER_ID}",
+                url=f"t.me/{OWNER_USERNAME}",
 
             ),
             InlineKeyboardButton(
