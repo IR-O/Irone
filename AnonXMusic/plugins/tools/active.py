@@ -76,7 +76,7 @@ async def activevi_(_, message: Message):
         )
 
 
-@app.on_message(filters.command("ac") & SUDOERS)
+@app.on_message(filters.command("av") & SUDOERS)
 async def start(client: Client, message: Message):
     ac_audio = str(len(await get_active_chats()))
     ac_video = str(len(await get_active_video_chats()))
