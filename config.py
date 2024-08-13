@@ -33,7 +33,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/IR-O/Irone",
+    "https://github.com/IR-O/Notarror",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -44,7 +44,7 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iro_bot_support")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/iro_x_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -64,7 +64,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
 STRING1 = getenv("STRING_SESSION", "BQGt9tsAZygPMZBw9Uy3Q10CojX4auYcucsHu20zY-uITqiRd8sQ-kF7w11XtfXbfA91v-B1B3BbWtw8-eOZU1Ix1K64il8His3jdfRO2OldwhbU1YvytG0bSfrjJIPD8kYifEGy8yNl697TdOrp_upv9FC53TxuMmA4wM8IyDrHWCEyo9H9gRmD-c1rHzvTg_6R5Qteo_T_j26CHVzumtVxu_oHMqz8tE14uYaPSYIh7ZByR9OhHCFqz_hw16pO54M-iVXSC_NndUKy6a8aObbTFwuDp_K_bPumwC0I-RtZHnQA_74fu6Q8oW95ZoKe79OPO8evIpTKPui6X8hgwgkCYRP5BwAAAAGxvy6uAA")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("STRING_SESSION2", "BQGt9tsAMVcdlvpicsYDQmYY4wqL8EwvQEQP9un728xkejZWhog_P03JnUQSO1uTFdQqNXFSDsbzYq5HlyF3R9jfp88KbLETxeFAkNvo6wGrlnDSvoFdycXM0u7oyjkbPzi4OtyLdoYjJiQpq-7lIlfPto5QXKeKKKdt4lwaHqbNX0gr9vzf7eW9f9ibT2vrpVq3Jjtnazb8nR_LkHO0zNk1OwS5haq5jCmFI8HXtOujYeK_pd_-K67s_PN3CgAUkpRoHyEmZuZnW6iLyucwmBih0YnAaBue62rBZYT0flQOHw1u_lHz2gGdiTR0_5VEnfdCOsIW5iHGWEeDLZTZbAIDT3LiAwAAAAGrnmV2AA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
