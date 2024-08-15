@@ -27,6 +27,7 @@ async def shell_cmd(cmd):
     return out.decode("utf-8")
 
 
+cookies_file = "AnonXMusic/assets/cookies.txt"
 class YouTubeAPI:
     def __init__(self):
         self.base = "https://www.youtube.com/watch?v="
